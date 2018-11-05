@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>熊猫小镇-首页</title>
+    <script type="text/javascript"> 
+        var curIndex = 0; 
+        var timeInterval = 2000; 
+        var arr = new Array(); 
+        arr[0] = "image/banner.jpg"; 
+        arr[1] = "image/banner2.jpg"; 
+        arr[2] = "image/banner3.jpg"; 
+        setInterval(changeImg,timeInterval); 
+        function changeImg() { 
+            var obj = document.getElementById("obj"); 
+            if (curIndex == arr.length-1) { 
+                curIndex = 0; 
+            } else { 
+                curIndex += 1; 
+              } 
+            obj.src = arr[curIndex]; 
+        } 
+    </script> 
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="background" style="position:absolute; left:0px; top:0px; width:100%; height:225%">
+	<div id="mainer">
+    	<div id="header">
+        <div id="zhanweige2"></div>
+        	<div id="logo"><img  width="148" height="107" src="image/logo.png"/></div>
+            <div id="research">
+           <div id="time">
+            <script type="text/JavaScript">
+var time = new Date( ); 
+var sMessage;
+var hour = time.getHours( ); 
+if(hour<=8) sMessage="早上好！";
+else if(hour<=12) sMessage="上午好！";
+else if(hour<=18) sMessage="下午好！";
+else if(hour<=21) sMessage="晚上好！";
+else sMessage="祝您晚安 ！";
+document.write("亲爱的游客  "+"<b>"+sMessage+"</b>");
+</script></div>
+            </div>
+            <div id="navigation">
+            	<div class="menu">
+       				 <ul>
+        	<li><a href="index.html">网站首页</a></li>
+            <li><a>科普教育</a>
+             <ul>
+    <li><a href="wuzhongxueshi.html" title="物种学史">物种学史</a></li>
+    <li><a href="xingtaitezhen.html" title="形态特征">形态特征</a></li>
+    <li><a href="qixihuanjing.html" title="栖息环境">栖息环境</a></li>
+    <li><a href="shenghuoxixing.html" title="生活习性">生活习性</a></li>
+    <li><a href="fenbufanwei.html" title="分布范围">分布范围</a></li>
+		    </ul></li>
+            <li><a>多彩熊猫</a>
+             <ul>
+    <li><a href="xiongmaohualang.html" title="熊猫画廊">熊猫画廊</a></li>
+    <li><a href="xiongmaoyinyue.html" title="熊猫音乐">熊猫音乐</a></li>
+		    </ul></li>
+            <li><a href="taolunqu.asp">讨论区</a></li>
+
+        </ul>
+        <div id="search_box"> 
+<form id="search_form" method="get" action="http://www.baidu.com/s"> 
+<input type="text" id="s" value="百度一下" class="swap_value" name="w"/> 
+<input type="submit"  id="go"  alt="Search" title="Search"value=" " /> 
+</form> 
+      			</div>
+            </div></div>
+            <div id="zhanwei"></div>
+        </div>
+        <div id="banner"><img id = "obj" src = "image/banner.jpg" border = 0 /></div>        
+        <div id="body">
+       		 <div id="body_left">
+             	<div class="word">
+                	<marquee direction="up" height="200" onmouseout="this.start()" onmouseover="this.stop()" scrollAmount="1" scrollDelay="1">
+                    <p>&nbsp;&nbsp;欢迎光临熊猫小镇<br />&nbsp;&nbsp;本小镇刚开设不久<br />&nbsp;&nbsp;还要很多需要改进的地方<br />&nbsp;&nbsp;若有不足的地方可通过QQ联系我们</p>
+
+                    </marquee>
+                </div>
+             </div>
+       		 <div id="body_right">
+             <div id="body_right_text">
+    <p>&nbsp; 大熊猫是世界上最可爱的动物之一，它有着圆圆的脸颊，大大的黑眼圈，胖嘟嘟的身体，标志性的内八字的行走方式，也有解剖刀般锋利的爪子。<br />
+ 　 大熊猫已在地球上生存了至少800万年，被誉为“活化石”和“中国国宝”，世界自然基金会的形象大使，是世界生物多样性保护的旗舰物种。据第三次全国大熊猫野外种群调查，全世界野生大熊猫不足1600只，属于国家一级保护动物。截止2011年10月，全国圈养大熊猫数量为333只。<br />
+ 　　大熊猫属于:动物界（Animalia），脊索动物门（Chordata），哺乳动物纲（Mammalia），食肉目（Carnivora），熊科（Ursidae），大熊猫属（Ailuropoda），大熊猫（Ailuropoda melanoleuca）。大熊猫在很久很久以前是吃肉的。虽然经过进化，现在的大熊猫99％的食物都是竹子了，但它们的牙齿和消化道还保持原样，所以我们仍然把它们划分为食肉目。<a href="wuzhongxueshi.html" title="more"target="_blank"><img src="image/more.gif" width="32" height="28" /></a>
+             </div>
+             </div>
+        	 <div id="body_bottom">
+             	<div class="new">
+                	<div class="title">科普教育</div>
+                  <div class="neirong"><li><a href="fenbufanwei.html">大熊猫都分布在哪里呢？</a></li><br />
+                 <li> <a href="shenghuoxixing.html">大熊猫平常喜欢做什么呢?</a></li><br />
+                 <li> <a href="qixihuanjing.html">大熊猫喜欢住在哪呢?</a></li><br />
+                 <li> <a href="xingtaitezhen.html">大熊猫长什么样呢?</a></li><br />
+              <li> <a href="wuzhongxueshi.html">以前的大熊猫是什么样子的呢?</a></li>
+
+                  </div>
+               </div>
+             	<div class="new">
+                	<div class="title">友情链接</div>
+                  <div class="neirong">
+      <a href="http://www.pandahome.org/cn/" target="_blank"><img src="image/cddxx.png" /></a>
+     <a href="http://www.pandaclub.cn/" target="_blank"> <img src="image/wldxxjlb.png" /></a>
+<a href="http://blog.sina.com.cn/u/2898113771" target="_blank"><img src="image/xfxmbl.png" /></a>
+<a href="http://www.ourpanda.com/" target="_blank"><img src="image/zgxm.png" /></a>
+                  </div>
+               </div>
+				<div class="photoshow"><a href="xiongmaohualang.html"><img width="250px" height="200px" src="image/jczp.gif" /></a></div>
+             </div>
+         </div>
+         <div id="bottom">制作者:王旭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮箱：847346005@qq.com&nbsp; &nbsp; &nbsp; &nbsp;  <a href="http://weibo.com/littlefivesmile" title="微博联系"target="_blank"> 微博联系</a> </div>
+    </div>
+
+</div> 
+</body>
+</html>

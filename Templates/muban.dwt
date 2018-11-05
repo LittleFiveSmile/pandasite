@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<link href="../css/css.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="background" style="position:absolute; left:0px; top:0px; width:100%; height:225%">
+	<div id="mainer">
+    	<div id="header">
+        <div id="zhanweige2"></div>
+        	<div id="logo"><img  width="148" height="107" src="../image/logo.png"/></div>
+            <div id="research">
+           <div id="time">
+            <script type="text/JavaScript">
+var time = new Date( ); 
+var sMessage;
+var hour = time.getHours( ); 
+if(hour<=8) sMessage="早上好！";
+else if(hour<=12) sMessage="上午好！";
+else if(hour<=18) sMessage="下午好！";
+else if(hour<=21) sMessage="晚上好！";
+else sMessage="祝您晚安 ！";
+document.write("亲爱的游客  "+"<b>"+sMessage+"</b>");
+</script></div>
+            </div>
+            <div id="navigation">
+            	<div class="menu">
+       				 <ul>
+        	<li><a href="../index.html">网站首页</a></li>
+            <li><a>科普教育</a>
+             <ul>
+    <li><a href="wuzhongxueshi.html" title="物种学史">物种学史</a></li>
+    <li><a href="xingtaitezhen.html" title="形态特征">形态特征</a></li>
+    <li><a href="qixihuanjing.html" title="栖息环境">栖息环境</a></li>
+    <li><a href="shenghuoxixing.html" title="生活习性">生活习性</a></li>
+    <li><a href="fenbufanwei.html" title="分布范围">分布范围</a></li>
+		    </ul></li>
+              <li><a>多彩熊猫</a>
+             <ul>
+    <li><a href="xiongmaohualang.html" title="熊猫画廊">熊猫画廊</a></li>
+    <li><a href="xiongmaoyinyue.html" title="熊猫音乐">熊猫音乐</a></li>
+		    </ul></li>
+           <li><a href="taolunqu.asp" >讨论区</a></li>
+        </ul>
+    <div id="search_box"> 
+<form id="search_form" method="get" action="http://www.baidu.com/s"> 
+<input type="text" id="s" value="百度一下" class="swap_value" name="w"/> 
+<input type="submit"  id="go"  alt="Search" title="Search"value=" " /> 
+</form> 
+      			</div>
+            </div></div>
+            <div id="zhanwei"></div>
+        </div>
+        <div id="body_2">
+       	  <div id="body_2left"><!-- TemplateBeginEditable name="EditRegion3" -->
+          <div id="body_2left_top" style="
+            background:url(../image/banner2.png);"></div>
+          <div id="body_2left_text"><br />
+            <img src="../image/title_jhxs.png" width="284" height="60" />
+            <p>&nbsp; &nbsp;大熊猫的历史可谓源远流长。迄今所发现的最古老大熊猫成员——始熊猫的化石出土于中国云南禄丰和元谋两地，地质年代约为800万年前中新世晚期。在长期严酷的生存竞争和自然选择中，和它们同时代的很多动物都已灭绝，但大熊猫却是强者，处于优势，成为“活化石”保存到了今天。</p>
+            <p>&nbsp;&nbsp; 大熊猫的祖先是始熊猫（Ailuaractos lufengensis），大熊猫的标准中文名称其实叫“猫熊”，意即“像猫一样的熊”。这是一种由拟熊类演变而成的以食肉为主的最早的熊猫。始熊猫的主支则在中国的中部和南部继续演化，其中一种在距今约300万年的更新世初期出现，体形比熊猫小，从牙齿推断它已进化成为兼食竹类的杂食兽，卵生熊类，此后这一主支向亚热带扩展，分布广泛在华北、西北、华东、西南、华南以至越南和缅甸北部都发现了化石。在这一过程中，大熊猫适应了亚热带竹林生活，体型逐渐增大依赖竹子为生。在距今50-70万年的更新世中、晚期是大熊猫的鼎盛时期。生活中的大熊猫的臼齿发达，爪子除了五趾外还有一个“拇指”。这个“拇指”其实是一节腕骨特化形成，学名叫做“桡侧籽骨”，主要起握住竹子的作用。</p>
+            <p>&nbsp;&nbsp; 化石显示，大熊猫祖先出现在2～3百万年前的洪积纪早期。距今几十万年前是大熊猫的极盛时期，它属于剑齿象古生物群，大熊猫的栖息地曾覆盖了中国东部和南部的大部分地区，北达北京，南至缅甸南部和越南北部。化石通常在海拔500～700米的温带或亚热带森林发现。后来同期的动物相继灭绝，大熊猫却孑遗至今，并保持原有的古老特征。</p>
+            <img src="../image/title_gjmm.png"  width="284" height="60"/>
+            <p>&nbsp;&nbsp; 大熊猫的近代名称（即中国国内通行的中文名称），最初定名本叫猫熊或大猫熊，意思是它的脸型似猫那样圆胖，但整个体型又像熊，有的甚至把它隶属于熊科。由于在20世纪50年代前，中文的书写方式是直书，认读是自右到左，而改为横书后则从左到右，当1939年四川北碚博物馆展出时说明标题用横书，名猫熊，而当时参观者习惯了直书自右到左的认读，误认为熊猫。</p>
+            <p>&nbsp; &nbsp;自此，首先在主产它的故乡（四川），长此以往向传讹误，久之也就习以为常的把猫熊更名为熊猫了。以后，它通用的中文名叫大熊猫，也就被人们所公认。它的地方名，在它的故乡里多叫白熊、或白老熊，也有叫花熊的；在岷山藏族地区叫荡或杜洞尕（gǎ），平武白马达布人则叫洞尕；凉山彝族叫峨曲。所有这些地方名，虽称呼不同，而其含义与古籍中叫的貔貅或貘，无非都是说明它的体色白，或黑白，或体型似熊。</p>
+          </div>
+       	  <!-- TemplateEndEditable --></div>
+       	  <!-- TemplateBeginEditable name="EditRegion4" -->
+          
+          <div id="body_2right" style="background:url(../image/navigation_2.png)">
+            <div id="nav"> <a href="../wuzhongxueshi.html" style="background-color:#d3e4c8">物种学史</a> <a href="#">形态特征</a> <a href="qixihuanjing.html">栖息环境</a> <a href="shenghuoxixing.html">生活习性</a> <a href="fenbufanwei.html">范围分布</a> </div>
+</div>
+          </div>
+       	  <!-- TemplateEndEditable -->
+         <div id="bottom">制作者:王旭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮箱：847346005@qq.com&nbsp; &nbsp; &nbsp; &nbsp;  <a href="http://weibo.com/littlefivesmile" title="微博联系"target="_blank"> 微博联系</a> </div>
+    </div>
+</div> </div>
+</body>
+</html>
